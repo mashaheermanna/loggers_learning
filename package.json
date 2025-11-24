@@ -1,0 +1,31 @@
+{
+  "name": "loggers_learning-",
+  "version": "1.0.0",
+  "description": "basics of loggers and its best practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mashaheermanna/loggers_learning-.git"
+  },
+  "keywords": [
+    "loggers",
+    "JS",
+    "node"
+  ],
+  "author": "Mashaheer Manna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mashaheermanna/loggers_learning-/issues"
+  },
+  "homepage": "https://github.com/mashaheermanna/loggers_learning-#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "winston": "^3.18.3",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "type": "module"
+}
